@@ -86,7 +86,11 @@ class _TypeBPMState extends State<TypeBPM> {
 
                     const SizedBox(height: 20),
 
-
+                    const Button(
+                      onPressed: () {
+                        // Handle the button press event here
+                      }
+                    )
                   
 
                     const SizedBox(height: 24),
