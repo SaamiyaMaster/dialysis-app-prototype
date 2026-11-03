@@ -15,7 +15,7 @@ class _TypeBPMState extends State<TypeBPM> {
 
   @override
   void dispose() {
-    BPM = null;
+    BPMValue.diapose();
     super.dispose();
   }
 
