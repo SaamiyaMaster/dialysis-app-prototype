@@ -71,9 +71,9 @@ class _TypeBPMState extends State<TypeBPM> {
                     const Text('Enter BPM'),
                     const SizedBox(height: 8),
                     TextField(
-                       keyboardType: TextInputType.number, //show number keyboard
+                      keyboardType: TextInputType.number, //show number keyboard
                       inputFormatters: [
-                          FilteringTextInputFormatter.digitsOnly,
+                        FilteringTextInputFormatter.digitsOnly,
                         ], //only allow digits
                       controller: BPM, // Use the TextEditingController to manage the text field input
                       decoration: _inputDecoration('Your BPM'),
