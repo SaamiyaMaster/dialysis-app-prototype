@@ -83,7 +83,7 @@ class _TypeBPMState extends State<TypeBPM> {
                         });
                       },
                     ),
-
+//parameter set, range set, and validation for BPM input
                     const SizedBox(height: 20),
 
                     const Button(
