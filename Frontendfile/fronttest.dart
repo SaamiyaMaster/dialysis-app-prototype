@@ -75,9 +75,9 @@ class _TypeBPMState extends State<TypeBPM> {
                       inputFormatters: [
                           FilteringTextInputFormatter.digitsOnly,
                         ], //only allow digits
-                      controller: BPM,
+                      controller: BPM, // Use the TextEditingController to manage the text field input
                       decoration: _inputDecoration('Your BPM'),
-                      onChanged: (value) {
+                      onChanged: (value) { // Update the BPMValue when the text field changes
                         setState(() {
                           BPMValue = double.tryParse(value);
                         });
