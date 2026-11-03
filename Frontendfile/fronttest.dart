@@ -64,16 +64,6 @@ class _TypeBPMState extends State<TypeBPM> {
                       ],
                     ),
 
-                    const SizedBox(height: 48),
-
-                    
-                    const SizedBox(height: 16),
-
-                    const SizedBox(height: 12),
-
-                    const SizedBox(height: 32),
-
-                    const SizedBox(height: 28),
 
                     const Text('Enter BPM'),
                     const SizedBox(height: 8),
