@@ -78,6 +78,10 @@ class _TypeBPMState extends State<TypeBPM> {
                     const Text('Enter BPM'),
                     const SizedBox(height: 8),
                     TextField(
+                       keyboardType: TextInputType.number, //show number keyboard
+                      inputFormatters: [
+                          FilteringTextInputFormatter.digitsOnly,
+                        ], //only allow digits
                       controller: BPM,
                       decoration: _inputDecoration('Your BPM'),
                     ),
