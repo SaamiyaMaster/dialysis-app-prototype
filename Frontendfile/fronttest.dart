@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//import 'second page.art'; //to import the second page.dart file
+import 'fronttest2.dart'; //to import the second page.dart file
 
 class TypeBPM extends StatefulWidget {
   const TypeBPM({super.key});
