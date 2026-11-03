@@ -10,11 +10,11 @@ class TypeBPM extends StatefulWidget {
 }
 
 class _TypeBPMState extends State<TypeBPM> {
-  final BPM = TextEditingController();
+  int? BPM;
 
   @override
   void dispose() {
-    BPM.dispose();
+    BPM = null  ;
     super.dispose();
   }
 

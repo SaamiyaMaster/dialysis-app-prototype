@@ -11,10 +11,11 @@ class TypeBPM extends StatefulWidget {
 
 class _TypeBPMState extends State<TypeBPM> {
   final BPM = TextEditingController();
+  double? BPMValue;
 
   @override
   void dispose() {
-    BPM.dispose();
+    BPM = null;
     super.dispose();
   }
 
@@ -76,6 +77,11 @@ class _TypeBPMState extends State<TypeBPM> {
                         ], //only allow digits
                       controller: BPM,
                       decoration: _inputDecoration('Your BPM'),
+                      onChanged: (value) {
+                        setState(() {
+                          BPMValue = double.tryParse(value);
+                        });
+                      },
                     ),
 
                     const SizedBox(height: 20),
