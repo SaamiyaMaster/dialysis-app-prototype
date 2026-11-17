@@ -1,17 +1,52 @@
-# dwell_app
+# 
 
-A new Flutter project.
+# \# Peritoneal Dialysis Tracking Application
 
-## Getting Started
+# 
 
-This project is a starting point for a Flutter application.
+# This repository contains the team's peritoneal dialysis tracking application prototype.
 
-A few resources to get you started if this is your first Flutter project:
+# 
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+# \## Project Overview
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 
+
+# The application is being developed to help patients record and review their daily peritoneal dialysis treatment information.
+
+# 
+
+# \## Project Structure
+
+# 
+
+# \- `Frontendfile/Dialysis Tracking App/` — React/Next.js application
+
+# \- `example\_CSV\_from\_supabase/` — Example data files
+
+# \- `Data\_Analysis` — Team data analysis work
+
+# \- `Supabase` — Team Supabase-related work
+
+# 
+
+# \## Development
+
+# 
+
+# The main application uses React, Next.js, and TypeScript.
+
+# 
+
+# Development instructions and additional documentation will be updated as the application progresses.
+
+# 
+
+# \## Collaboration
+
+# 
+
+# Team members should create separate Git branches for their changes and use pull requests to review and merge work into `main`.
+
+
+
